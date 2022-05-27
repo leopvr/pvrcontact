@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo png.png" />
+</head>
+
+<body>
+
+    <nav class="navgigs">
+
+        <img class="logopvr" src="./img/pngpvr.png" alt="">
+
+        <div class="playpause">
+            <button onclick="pause()" class="btnpp">
+                <img src="./img/Play_Pause_icon.svg" alt="" width="35px" class="pauseIcon">
+            </button>
+        </div>
+
+        <div class="playpausestop">
+            <button onclick="play()" class="btnpp">
+                <img src="./img/Play_Pause_icon.svg" alt="" width="35px" class="pauseIcon">
+            </button>
+        </div>
+
+
+        <div class="bannerNav">
+            <video class="videoBanner" src="https://firebasestorage.googleapis.com/v0/b/primer-proyecto-84c65.appspot.com/o/fehler_vhs.mp4?alt=media&token=292d88f7-db1e-4384-8ba6-90a76f6ad8a1" muted loop autoplay></video>
+        </div>
+
+        <div class="containergigs">
+
+            <h2>TRAX</h2>
+
+            <div class="socialLinks">
+                <a href="https://zpectrum.bandcamp.com/album/virtual-velocity-v-a-01"><img
+                        src="./img/bandcamp-brands.svg" alt="" width="45"></a>
+                <a href="https://open.spotify.com/artist/4VE9PU7va4gBisff4hAZGF?si=DmruRU_3Qg2HMGxT5NTR3w"><img
+                        src="./img/spotify-brands.svg" alt="" width="45"></a>
+                <a href="https://soundcloud.com/leopvr"><img src="./img/soundcloud-brands.svg" alt="" width="45"></a>
+                <a href="https://www.instagram.com/leo.pvr/?hl=es-la"><img src="./img/instagram-brands.svg" alt=""
+                        width="45"></a>
+            </div>
+
+            <div class="sectionsNavBanner">
+                <a href="contact.html">Contact</a>
+                <span>/</span>
+                <a href="gigs.html">Gigs</a>
+                <span>/</span>
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="trax.html" class="activeLink">Trax</a>
+                <span>/</span>
+                <a href="aboutme.html">About Me</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="traxContainer">
+
+        <iframe width="400px" height="450" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1262321686&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+
+
+        <iframe width="400px" height="450" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1436106178&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+
+
+        <iframe width="400px" height="450" scrolling="no" frameborder="no" allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1207229872&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        </iframe>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

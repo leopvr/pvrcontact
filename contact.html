@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo png.png" />
+</head>
+
+<body>
+    <nav class="navgigs">
+
+        <img class="logopvr" src="./img/pngpvr.png" alt="">
+
+        <!-- <div class="playpause">
+            <button onclick="pause()" class="btnpp">
+                <img src="./img/Play_Pause_icon.svg" alt="" width="35px" class="pauseIcon">
+            </button>
+        </div>
+
+        <div class="playpausestop">
+            <button onclick="play()" class="btnpp">
+                <img src="./img/Play_Pause_icon.svg" alt="" width="35px" class="pauseIcon">
+            </button>
+        </div>
+
+
+        <div class="bannerNav">
+            <video class="videoBanner" src="./img/fehler_vhs.mp4" muted loop autoplay></video>
+        </div> -->
+
+        <div class="containergigs">
+
+            <h2>CONTACT</h2>
+
+            <div class="socialLinks">
+                <a href="https://zpectrum.bandcamp.com/album/virtual-velocity-v-a-01"><img
+                        src="./img/bandcamp-brands.svg" alt="" width="45"></a>
+                <a href="https://open.spotify.com/artist/4VE9PU7va4gBisff4hAZGF?si=DmruRU_3Qg2HMGxT5NTR3w"><img
+                        src="./img/spotify-brands.svg" alt="" width="45"></a>
+                <a href="https://soundcloud.com/leopvr"><img src="./img/soundcloud-brands.svg" alt="" width="45"></a>
+                <a href="https://www.instagram.com/leo.pvr/?hl=es-la"><img src="./img/instagram-brands.svg" alt=""
+                        width="45"></a>
+            </div>
+
+            <div class="sectionsNavBanner">
+                <a href="contact.html" class="activeLink">Contact</a>
+                <span>/</span>
+                <a href="gigs.html">Gigs</a>
+                <span>/</span>
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="trax.html">Trax</a>
+                <span>/</span>
+                <a href="aboutme.html">About Me</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <main class="mainContact">
+
+        <video
+            src="https://firebasestorage.googleapis.com/v0/b/primer-proyecto-84c65.appspot.com/o/POLVO%20Y%20RASGADURAS.mp4?alt=media&token=31897abc-ef40-4c0c-aec1-e43f66886f4c"
+            class="videoContact" muted loop autoplay></video>
+
+        <div class="aboutCont">
+
+            <div class="contactTxt">
+                <form name="validacion" action="https://formsubmit.co/contact.leopvr@gmail.com" method="post">
+
+                    <h4>Formulario</h4>
+
+                    <div class="contactForm">
+                        <input type="text" name="nombre" id="txtNombre" placeholder="Nombre:*" required>
+                    </div>
+
+                    <div class="contactForm">
+                        <input type="number" name="telefono" id="txtcPhone" placeholder="Numero de Telefono:">
+                    </div>
+
+                    <div class="contactForm">
+                        <input type="text" name="mail" id="txtcMail" placeholder="Email de Contacto:*" required>
+                    </div>
+
+                    <div class="checkContact">
+
+                        <div class="tipoUser">
+                            <div style="text-align: center;">
+                                <label for="usuario">Producer/DJ</label>
+                                <input type="radio" name="userContact" id="usuario" value="usuario">
+                            </div>
+
+                            <div>
+                                <label for="Empresa">Label</label>
+                                <input type="radio" name="userContact" id="empresa" value="Label">
+                            </div>
+
+                            <div>
+                                <label for="Other">Booking</label>
+                                <input type="radio" name="userContact" id="Other" value="Booking">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <input class="msjContact" style="text-decoration: none;" type="text" name="msjContact"
+                        id="msjContact" placeholder="Ingrese un mensaje aqui!*" required>
+
+                    <div>
+                        <input type="submit" value="ENVIAR" class="btnContact" onclick="validar()">
+                    </div>
+
+                    <input type="hidden" name="_next"
+                        value="file:///E:/Leo/Programacion/codo%20a%20codo/TPO/index.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                </form>
+            </div>
+
+            <div class="imgcont">
+                <img src="https://firebasestorage.googleapis.com/v0/b/primer-proyecto-84c65.appspot.com/o/img6.jpg?alt=media&token=8fb79d13-0cfc-49be-b97f-e06a2dd9d07e" alt="" width="100%" height="800px">
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
